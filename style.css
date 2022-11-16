@@ -81,8 +81,16 @@ div.dentro aside {
 img {
     display: inline;
     width: 250px;
-    border-radius: 20px;
+    border-radius: 150px;
     transform: translate(-110%, -108%);
+    transition: 1s;
+}
+
+img:hover {
+    
+    
+    border-radius: 20px;
+    
 }
 
 @media (max-width: 850px) {
