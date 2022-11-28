@@ -8,6 +8,45 @@
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>Profiles</title>
+    <style>
+
+ div.dentro img {
+    display: inline;
+    width: 250px;
+    border-radius: 150px;
+    transform: translate(-110%, -108%);
+    transition: 1s;
+}
+
+div.dentro img:hover {
+    
+    
+    border-radius: 20px;
+    
+}
+
+section.contatos {
+    
+    margin: 40px 0px 40px 0px;
+    height: 40px;
+}
+
+section.contatos img {
+    width: 40px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+section.contatos img:hover {
+    width: 45px;
+    
+    
+}
+
+p {
+    margin: 0px;
+}
+    </style>
 </head>
 <body>
     <main>
@@ -38,12 +77,13 @@
                 </div>
             </div>
     
-         <section>
-                  <p>Meus contatos</p>
-                  <a href="#"><img src="" alt=""></a>
-                  <a href="#"><img src="" alt=""></a>
-                  <a href="#"><img src="" alt=""></a>
-                  <a href="#"><img src="" alt=""></a>
+         <section class="contatos">
+                  <p>Minhas redes sociais</p>
+                  <div class="ctts">
+                      <a href="https://www.instagram.com/jc007zz/" target="_blank"><img class="insta" src="imagens/instagram-logo.png" alt="logo do intragram"></a>
+                      <a class="disc" href="https://discord.gg/kWeHbmmgze" target="_blank"><img src="imagens/discord-logo.png" alt="logo do discord"></a>
+                  </div>
+                  
          </section>
     </main>
 
