@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,87 +9,119 @@
     <link rel="stylesheet" href="style.css">
     <title>Profiles</title>
     <style>
+        div.dentro img {
+            display: inline;
+            width: 250px;
+            border-radius: 150px;
+            transform: translate(-110%, -108%);
+            transition: 1s;
+        }
 
- div.dentro img {
-    display: inline;
-    width: 250px;
-    border-radius: 150px;
-    transform: translate(-110%, -108%);
-    transition: 1s;
-}
+        div.dentro img:hover {
 
-div.dentro img:hover {
-    
-    
-    border-radius: 20px;
-    
-}
 
-section.contatos {
-    
-    margin: 40px 0px 40px 0px;
-    height: 40px;
-}
+            border-radius: 20px;
 
-section.contatos img {
-    width: 40px;
-    margin: 5px;
-    transition: 0.3s;
-}
+        }
 
-section.contatos img:hover {
-    width: 45px;
-    
-    
-}
+        section.contatos {
 
-p {
-    margin: 0px;
-}
+            margin: 40px 0px 40px 0px;
+            height: 40px;
+        }
+
+        img.insta,
+        img.disc {
+
+            width: 30px;
+        }
+
+        .binsta,
+        .bdisc {
+            display: inline-flex;
+            margin: 5px;
+            height: 50px;
+            width: 50px;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(0, 0, 0);
+            border-radius: 30px;
+            transition: 0.6s;
+        }
+
+        .binsta:hover,
+        .bdisc:hover {
+            display: inline-flex;
+            background-color: rgb(26, 26, 26);
+            transform: translate(10%, -10%);
+            width: 53px;
+            height: 53px;
+            border-radius: 20px;
+        }
+
+
+        p {
+            margin: 0px;
+        }
+
+        .Jc {
+            color: red;
+        }
+
+        .Jc:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
+
 <body>
     <main>
-      <H1>Bem Vindo!!</H1>
+        <H1>Bem Vindo!!</H1>
         <section class="venda">
             <p>Está é minha lojinha de <span class="destaque"><a href="cards.html">Cards</a></span> personalizados <br>
-            Custa apenas 15,00R$ <br>
-            Caso tenha interesse clique <a href="#">Aqui</a></p>
+                Custa apenas 15,00R$ <br>
+                Caso tenha interesse clique <a href="#">Aqui</a></p>
         </section>
-            <div class="fora">
-                <div class="dentro">
-                    <aside>
-                        <h2>
-                            Costumização
-                        </h2>
-                        <p>deixa sua criatividade voar</p>
-                
-                    </aside>
-                    <aside>
-                        <h2>Hub digital</h2>
-                        <p> Centralize aqui todas suas redes sociais</p>
-                    </aside>
-                    <aside>
-                        <h2>Identidade</h2>
-                        <p>fale sobre você</p>
-                    </aside>
-                    <img src="imagens/passinho-de-bh.gif" alt="passinho de bh">
-                </div>
+        <div class="fora">
+            <div class="dentro">
+                <aside>
+                    <h2>
+                        Costumização
+                    </h2>
+                    <p>deixa sua criatividade voar</p>
+
+                </aside>
+                <aside>
+                    <h2>Hub digital</h2>
+                    <p> Centralize aqui todas suas redes sociais</p>
+                </aside>
+                <aside>
+                    <h2>Identidade</h2>
+                    <p>fale sobre você</p>
+                </aside>
+                <img src="imagens/passinho-de-bh.gif" alt="passinho de bh">
             </div>
-    
-         <section class="contatos">
-                  <p>Minhas redes sociais</p>
-                  <div class="ctts">
-                      <a href="https://www.instagram.com/jc007zz/" target="_blank"><img class="insta" src="imagens/instagram-logo.png" alt="logo do intragram"></a>
-                      <a class="disc" href="https://discord.gg/kWeHbmmgze" target="_blank"><img src="imagens/discord-logo.png" alt="logo do discord"></a>
-                  </div>
-                  
-         </section>
+        </div>
+
+        <section class="contatos">
+            <p>Minhas redes sociais</p>
+            <div class="binsta">
+                <a href="https://www.instagram.com/jc007zz/" target="_blank"><img class="insta" src="imagens/insta.png"
+                        alt="logo do intragram"></a>
+            </div>
+            <div class="bdisc">
+                <a href="https://discord.gg/kWeHbmmgze" target="_blank"><img class="disc" src="imagens/disc.png"
+                        alt="logo do discord"></a>
+            </div>
+
+
+        </section>
     </main>
 
     <footer>
-        <p>Site criado por Jc</p>
+        <p>Site criado por <span class="Jc">Jc</span></p>
     </footer>
-    
+
 </body>
+
 </html>
