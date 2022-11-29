@@ -71,6 +71,94 @@
         .Jc:hover {
             text-decoration: underline;
         }
+
+        .venda {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section.venda a {
+    text-decoration: none;
+    color: red;
+}
+
+section.venda a:hover {
+    text-decoration: none;
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+
+.fora {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    max-width: 800px;
+    height: 330px;
+    margin: auto;
+}
+
+.dentro {
+    max-width: 350px;
+    transform: translate(115%, 0%);
+}
+
+div.dentro aside {
+    max-width: 350px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+
+
+
+@media (max-width: 850px) {
+    .dentro {
+        max-width: 41vw;
+
+
+    }
+
+    img {
+        max-width: 40vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .dentro {
+
+        max-width: 60vw;
+        transform: translate(30%, 0%);
+    }
+
+    .passinho img {
+        position: absolute;
+        max-width: 40vw;
+        top: 530px;
+        left: 90%;
+        
+        
+    }
+
+    section.contatos {
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 336px) {
+
+    main h1 {
+        padding: 15px 40px;
+    }
+}
     </style>
 </head>
 
@@ -99,7 +187,9 @@
                     <h2>Identidade</h2>
                     <p>fale sobre você</p>
                 </aside>
-                <img src="imagens/passinho-de-bh.gif" alt="passinho de bh">
+                <div class="passinho">
+                    <img  src="imagens/passinho-de-bh.gif" alt="passinho de bh">
+                </div>
             </div>
         </div>
 
